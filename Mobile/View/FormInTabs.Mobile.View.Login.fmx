@@ -1,0 +1,43 @@
+inherited FormLogin: TFormLogin
+  Caption = 'FormModel1'
+  DesignerMasterStyle = 0
+  inherited lytBackground: TLayout
+    inherited tbcMain: TTabControl
+      Sizes = (
+        340s
+        511s
+        340s
+        511s)
+      inherited tbiMain: TTabItem
+        Size.Width = 61.000000000000000000
+        ExplicitSize.cx = 61.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        inherited lytMain: TLayout
+          inherited rctHeader: TRectangle
+            inherited lblHeader: TLabel
+              Text = 'Login'
+            end
+            inherited btnHeaderRight: TButton
+              OnClick = btnHeaderRightClick
+            end
+          end
+          inherited VertScrollBox1: TVertScrollBox
+            Viewport.Width = 340.000000000000000000
+            Viewport.Height = 461.000000000000000000
+            object Button1: TButton
+              Align = Center
+              TabOrder = 0
+              Text = 'Button1'
+              OnClick = Button1Click
+            end
+          end
+        end
+      end
+      inherited tbiAux: TTabItem
+        Size.Width = 55.000000000000000000
+        ExplicitSize.cx = 55.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+      end
+    end
+  end
+end
