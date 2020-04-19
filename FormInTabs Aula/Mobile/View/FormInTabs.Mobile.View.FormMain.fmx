@@ -590,6 +590,8 @@ object FormMain: TFormMain
           TabOrder = 0
           TabStop = False
           Text = 'tbiLogin'
+          ExplicitSize.cx = 64.000000000000000000
+          ExplicitSize.cy = 26.000000000000000000
           object lytLogin: TLayout
             Align = Client
             Size.Width = 340.000000000000000000
@@ -611,6 +613,8 @@ object FormMain: TFormMain
           TabOrder = 0
           TabStop = False
           Text = 'tbiMain'
+          ExplicitSize.cx = 61.000000000000000000
+          ExplicitSize.cy = 26.000000000000000000
           object lytMain: TLayout
             Align = Client
             Size.Width = 340.000000000000000000
@@ -624,6 +628,7 @@ object FormMain: TFormMain
               Size.Width = 250.000000000000000000
               Size.Height = 534.000000000000000000
               Size.PlatformDefault = False
+              Visible = False
               TabOrder = 0
               object Layout1: TLayout
                 Align = Top

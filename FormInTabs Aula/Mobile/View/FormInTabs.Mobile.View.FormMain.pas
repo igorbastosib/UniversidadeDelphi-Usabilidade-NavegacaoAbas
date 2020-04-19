@@ -89,6 +89,9 @@ begin
   tbcMain.TabPosition := TTabPosition.None;
   tbcMain.ActiveTab := tbiLogin;
 
+  TUtils.FFormActive := nil;
+  FFormLogin := nil;
+
   TUtils.OpenForm( //
     TFormLogin, //
     lytLogin, //
