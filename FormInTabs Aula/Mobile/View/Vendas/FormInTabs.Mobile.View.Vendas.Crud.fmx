@@ -1,0 +1,39 @@
+inherited FormVendaCrud: TFormVendaCrud
+  Caption = 'FormModel1'
+  DesignerMasterStyle = 0
+  inherited lytBackground: TLayout
+    inherited tbcMain: TTabControl
+      Sizes = (
+        340s
+        511s
+        340s
+        511s)
+      inherited tbiMain: TTabItem
+        Size.Width = 61.000000000000000000
+        ExplicitSize.cx = 170.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited lytMain: TLayout
+          inherited lytHeader: TLayout
+            inherited rctHeader: TRectangle
+              inherited lblHeader: TLabel
+                Text = 'Cabe'#231'alho'
+              end
+              inherited btnHeaderRight: TButton
+                OnClick = btnHeaderRightClick
+              end
+            end
+          end
+          inherited vtsList: TVertScrollBox
+            Viewport.Width = 340.000000000000000000
+            Viewport.Height = 461.000000000000000000
+          end
+        end
+      end
+      inherited tbiAux: TTabItem
+        Size.Width = 55.000000000000000000
+        ExplicitSize.cx = 170.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+      end
+    end
+  end
+end

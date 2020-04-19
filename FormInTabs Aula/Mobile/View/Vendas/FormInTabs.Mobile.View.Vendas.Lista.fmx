@@ -1,0 +1,48 @@
+inherited FormVendaLista: TFormVendaLista
+  Caption = 'FormModel1'
+  DesignerMasterStyle = 0
+  inherited lytBackground: TLayout
+    inherited tbcMain: TTabControl
+      Sizes = (
+        340s
+        511s
+        340s
+        511s)
+      inherited tbiMain: TTabItem
+        Size.Width = 61.000000000000000000
+        ExplicitSize.cx = 170.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited lytMain: TLayout
+          inherited lytHeader: TLayout
+            inherited rctHeader: TRectangle
+              inherited lblHeader: TLabel
+                Text = 'Vendas [0]'
+              end
+              inherited btnHeaderRight: TButton
+                OnClick = btnHeaderRightClick
+                inherited pthHeaderRight: TPath
+                  Data.Path = {
+                    0E00000000000000000098410000504101000000000050410000504101000000
+                    0000504100009841010000000000304100009841010000000000304100005041
+                    010000000000A04000005041010000000000A040000030410100000000003041
+                    0000304101000000000030410000A04001000000000050410000A04001000000
+                    0000504100003041010000000000984100003041010000000000984100005041
+                    030000000000984100005041}
+                end
+              end
+            end
+          end
+          inherited vtsList: TVertScrollBox
+            Viewport.Width = 340.000000000000000000
+            Viewport.Height = 461.000000000000000000
+          end
+        end
+      end
+      inherited tbiAux: TTabItem
+        Size.Width = 55.000000000000000000
+        ExplicitSize.cx = 170.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+      end
+    end
+  end
+end

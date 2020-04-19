@@ -1,0 +1,173 @@
+object FormModel: TFormModel
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 560
+  ClientWidth = 340
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object lytBackground: TLayout
+    Align = Client
+    Size.Width = 340.000000000000000000
+    Size.Height = 560.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    TabStop = False
+    object rctBackground: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 340.000000000000000000
+      Size.Height = 560.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object tbcMain: TTabControl
+      Align = Client
+      Size.Width = 340.000000000000000000
+      Size.Height = 560.000000000000000000
+      Size.PlatformDefault = False
+      TabHeight = 49.000000000000000000
+      TabIndex = 0
+      TabOrder = 0
+      TabStop = False
+      TabPosition = PlatformDefault
+      Sizes = (
+        340s
+        511s
+        340s
+        511s)
+      object tbiMain: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Width = 169.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        TabStop = False
+        Text = 'tbiMain'
+        ExplicitSize.cx = 170.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        object lytMain: TLayout
+          Align = Client
+          Size.Width = 340.000000000000000000
+          Size.Height = 511.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          TabStop = False
+          object lytHeader: TLayout
+            Align = Top
+            Size.Width = 340.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            TabStop = False
+            object rctHeader: TRectangle
+              Align = Client
+              Fill.Color = claRed
+              Size.Width = 340.000000000000000000
+              Size.Height = 50.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object lblHeader: TLabel
+                Align = Contents
+                StyledSettings = [Family, Style, FontColor]
+                Size.Width = 340.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 24.000000000000000000
+                TextSettings.HorzAlign = Center
+                Text = 'lblHeader'
+                TabOrder = 0
+                TabStop = False
+              end
+              object btnHeaderLeft: TButton
+                Align = Left
+                CanFocus = False
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                StyleLookup = 'btnTransparent'
+                TabOrder = 1
+                TabStop = False
+                object pthHeaderLeft: TPath
+                  Align = Center
+                  Data.Path = {
+                    1000000000000000000040400000C040010000000000A8410000C04001000000
+                    0000A8410000004101000000000040400000004101000000000040400000C040
+                    000000000000404000003041010000000000A84100003041010000000000A841
+                    0000504101000000000040400000504101000000000040400000304100000000
+                    0000404000008041010000000000A84100008041010000000000A84100009041
+                    0100000000004040000090410100000000004040000080410300000000004040
+                    00008041}
+                  Fill.Color = claWhite
+                  HitTest = False
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+              object btnHeaderRight: TButton
+                Align = Right
+                CanFocus = False
+                Position.X = 290.000000000000000000
+                Size.Width = 50.000000000000000000
+                Size.Height = 50.000000000000000000
+                Size.PlatformDefault = False
+                StyleLookup = 'btnTransparent'
+                TabOrder = 2
+                TabStop = False
+                object pthHeaderRight: TPath
+                  Align = Center
+                  Data.Path = {
+                    08000000000000000000A8410000E04001000000000010410000984101000000
+                    000060400000584101000000B81E9D40A47041410100000000001041295C8141
+                    0100000052B89C4148E1B240010000000000A8410000E040030000000000A841
+                    0000E040}
+                  Fill.Color = claWhite
+                  HitTest = False
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Stroke.Kind = None
+                end
+              end
+            end
+          end
+          object vtsList: TVertScrollBox
+            Align = Client
+            Size.Width = 340.000000000000000000
+            Size.Height = 461.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            TabStop = False
+            Viewport.Width = 340.000000000000000000
+            Viewport.Height = 461.000000000000000000
+          end
+        end
+      end
+      object tbiAux: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 169.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        TabStop = False
+        Text = 'tbiAux'
+        ExplicitSize.cx = 170.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+      end
+    end
+  end
+end
