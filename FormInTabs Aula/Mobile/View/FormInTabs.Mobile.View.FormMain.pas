@@ -89,6 +89,10 @@ begin
   tbcMain.TabPosition := TTabPosition.None;
   tbcMain.ActiveTab := tbiLogin;
 
+  {
+    É recomendado SEMPRE inicializar suas variáveis, esquecemos de fazê-lo
+    em vídeo, mas segue o código com a correção
+  }
   TUtils.FFormActive := nil;
   FFormLogin := nil;
 
